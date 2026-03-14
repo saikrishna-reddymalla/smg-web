@@ -33,10 +33,10 @@ export const legalNavigation: NavLink[] = [
 ];
 
 export const contactConfig: ContactConfig = {
-  email: null,
-  phone: "+44 7443 977632",
-  whatsapp: "+44 7443 977632",
-  addressLines: [],
+  email: "Contact@smgfashion.shop",
+  phone: "+44 7443977632",
+  whatsapp: "+44 7443977632",
+  addressLines: ["SMG Fashion Limited", "3 FIR TREE ROAD", "TW47HH"],
   businessHours: "Retail consultations arranged by appointment",
   serviceArea: "Serving retailers across the United Kingdom",
 };

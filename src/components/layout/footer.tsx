@@ -24,6 +24,13 @@ export function Footer() {
           <p className="mt-4 text-xs uppercase tracking-[0.28em] text-stone-500">
             {contactConfig.serviceArea}
           </p>
+          <div className="mt-6 space-y-2 text-sm leading-7 text-stone-600">
+            {contactConfig.addressLines.length ? (
+              <p>{contactConfig.addressLines.join(", ")}</p>
+            ) : null}
+            {contactConfig.email ? <p>{contactConfig.email}</p> : null}
+            {contactConfig.phone ? <p>{contactConfig.phone}</p> : null}
+          </div>
         </div>
         <div>
           <h3 className="text-sm font-medium uppercase tracking-[0.22em] text-stone-700">
